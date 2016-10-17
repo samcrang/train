@@ -26,6 +26,7 @@ group :integration do
   gem 'berkshelf', '~> 4.3'
   gem 'test-kitchen', '~> 1.11'
   gem 'kitchen-vagrant'
+  gem 'kitchen-docker'
 end
 
 group :tools do
